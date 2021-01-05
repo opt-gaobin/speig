@@ -1,2 +1,2 @@
 # speig
-Symplectic eigenvalue problem via trace minimization and Riemannian optimization
+**S**ym**p**lectic **eig**envalue problem via trace minimization and Riemannian optimization
