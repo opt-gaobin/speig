@@ -10,7 +10,7 @@ The major step is Riemannian optimization over the symplectic Stiefel manifold,
 where X is a 2n-by-2p matrix, J2n = [0 In; -In 0], and In is the n-by-n identity matrix.
 
 ## Demo
-Please run the demo ```test_cookup.m```.
+Please run the demo ```test_cookup.m```
 
 ## References
 [Bin Gao](https://www.gaobin.cc/), [Nguyen Thanh Son](https://sites.google.com/view/ntson), [P.-A. Absil](https://sites.uclouvain.be/absil/), [Tatjana Stykel](https://www.uni-augsburg.de/en/fakultaet/mntf/math/prof/numa/team/tatjana-stykel/)
