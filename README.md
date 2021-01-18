@@ -3,8 +3,7 @@ A Matlab solver for the **s**ym**p**lectic **eig**envalue problem via trace mini
 
 ## Problem
 This solver aims to compute the symplectic eigenvalues and eigenvectors of a positive-definite matrix M.
-
-The major step is based on the Riemannian optimization over the symplectic Stiefel manifold,
+The major step is Riemannian optimization over the symplectic Stiefel manifold,
 
 > min trace(X'AX), s.t.  X' J2n X = J2p.
 
