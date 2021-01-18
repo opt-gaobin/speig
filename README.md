@@ -1,5 +1,5 @@
 # speig
-A Matlab solver for **s**ym**p**lectic **eig**envalue problem via trace minimization and Riemannian optimization
+A Matlab solver for the **s**ym**p**lectic **eig**envalue problem via trace minimization and Riemannian optimization
 
 ## Problem
 This solver aims to compute the symplectic eigenvalues and eigenvectors of a positive-definite matrix M.
