@@ -19,7 +19,7 @@ k = 5;
 % parameters for spopt
 opts = struct;
 opts.record = 0;
-opts.mxitr  = 2000;
+opts.mxitr  = 5000;
 opts.xtol = 1e-11;
 opts.ftol = 1e-11;
 opts.gtol = 1e-9;
