@@ -30,6 +30,7 @@ par.p = k; % parameter for restarting
 par.tolr = 1e-8; % tolerance for restarting
 par.maxr = 2*k;  % the maximal number of restartings
 par.tolc = 1e-7; % tolerance for comupting the coefficients
+format long
 disp('        eigs             symplLanczos          Riemannian')
 for i = 1:ln
     n = list_n(i);
@@ -106,12 +107,10 @@ xlabel('problem size n')
 ylabel('residuals')
 set(gcf,'color','w')
 %}
-    
+format short
 %% ============= functions ==========================
 function [F,G] = eigvalcost(X,M)
 MX = M*X;
 F = X(:)'*MX(:);
 G = 2*MX;
 end
-
-
